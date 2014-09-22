@@ -17,6 +17,8 @@
     <!-- Custom styles for this template -->
     <link href="css/tristanH.css" rel="stylesheet">
 
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -39,6 +41,7 @@
         </div>
 		<div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
+            <li><a href="http://github.com/tristanh" target="_blank"><i class="fa fa-github"></i></a></li>
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -54,7 +57,7 @@
 		</div>
 
 			<h1>Hey!</h1>
-			<p>I'm Tristan, and this is my GitHub page. Currently a Computer Science student at the University of Waterloo, I like to program things. You can see some of it here if you want.</p>
+			<p>I'm Tristan, and this is my GitHub page. Currently a Computer Science student at the University of Waterloo, I like to program things. You can see some of it here (<a href="http://github.com/tristanh" target="_blank">or here</a>) if you want.</p>
 
       </div>
     </div>
@@ -62,41 +65,43 @@
     <div class="container" id="projects" >
 
       <div class="row" >
+
+      <div class="col-md-6">
+        <h2>LetsGo</h2>
+        <p>LetsGo! is a tool which provides unique, interactive maps listing all of the nearby businesses. You can generate a private link to share with your friends and then vote on the businesses each of you wants visit. A list with the highest voted businesses appears in the UI, showing where everyone really wants to go. Made for Hack The North 2014 with Sina Ghaffari (although it was his first time doing web dev!). We used Django/Python for the backend, messy javascript and typical web stuff for the front end and Google Maps and Yelp APIs for data. </p>
+       <p>
+        <a class="btn btn-default" href="http://letsgo.herokuapp.com" role="button" target="_blank">Use it &raquo;</a> &nbsp; 
+        <a class="btn btn-default" href="https://github.com/TristanH/LetsGo" role="button" target="_blank">Check out the code &raquo;</a>
+        </p>
+    </div>
 	  
 		<div class="col-md-6">
 			  <h2>Path Edge</h2>
 			  <p>A Java library for various operations on a 2D grid, specifically in relation to distances and paths. Made solely by myself. PathEdge supplies a 2D grid class for developers to use, then have every operation they could need on that grid at their fingertips. Different algorithms for pathfinding have always been an interest of mine and this is a manifestation of that. Also included are javadocs which make this library easy to use. Some examples of implementations of PathEdge could be creating 2D video games, solving game trees or creating simulations. </p>
 			 <p>
-			  <a class="btn btn-default" href="https://github.com/TristanH/path-edge/raw/master/PathEdge%20Demo.jar" role="button">Try the Demo &raquo;</a> &nbsp; 
-			  <a class="btn btn-default" href="https://github.com/TristanH/path-edge" role="button">Check out the code &raquo;</a>
+			  <a class="btn btn-default" href="https://github.com/TristanH/path-edge/raw/master/PathEdge%20Demo.jar" role="button" target="_blank">Try the Demo &raquo;</a> &nbsp; 
+			  <a class="btn btn-default" href="https://github.com/TristanH/path-edge" role="button" target="_blank">Check out the code &raquo;</a>
 		    </p>
-         </div>
-		<div class="col-md-6">
-          <h2>ShopTalk</h2>
-          <p>A webapp created with Sebastian Winemaker for a Genesys hackathon. ShopTalk acts as a personal online sales rep. You talk naturally to it about products you want (e.g "Find me the cheapest iPhone 5 case") and it responds with a product recommendation, information about the product, as well as a link to buy it. Hacked together with javascript, bootstrap, Amazon's product API and a Genesys chat API. To put it lightly this is still a work in progress, with especially needed work in the language processing. We're proud of how well it works for 14 hours though :)</p>
-          <p>
-		  <a class="btn btn-default" href="https://github.com/Sebastian-Winemaker/Genesys-Hackathon-2014" role="button">Check out the code &raquo;</a>
-		  </p>
-      </div>
+    </div>
+
 		
 	  </div>
 	  
 	  <div class="row">
-	      
-		 <div class="col-md-6">
-			  <h2>Enigma 1</h2>
-			  <p>Enigma is a top-down zombie survival game, complete with waves of zombies chasing you down, different guns and exciting gameplay. This is the first major project I've ever worked on, with my partner Sina Ghaffari. We developed this game with very little prior knowledge of Java or even much programming in general. However, bit by bit, we figured out better and better ways to do things and ultimately ended up with this amazing (albeit a bit inefficient) game. </p>
-			<p><a class="btn btn-default" href="http://sourceforge.net/projects/enigma-original/files/latest/download?source=navbar" role="button">Play the game &raquo;</a> &nbsp; 			  
-			  <a class="btn btn-default" href="https://github.com/sinaghaffari/Enigma" role="button">Check out the code &raquo;</a></p>
+
+      <div class="col-md-6">
+        <h2>ShopTalk</h2>
+        <p>A webapp created with Sebastian Winemaker for a Genesys hackathon. ShopTalk acts as a personal online sales rep. You talk naturally to it about products you want (e.g "Find me the cheapest iPhone 5 case") and it responds with a product recommendation, information about the product, as well as a link to buy it. Hacked together with javascript, bootstrap, Amazon's product API and a Genesys chat API. To put it lightly this is still a work in progress, with especially needed work in the language processing. We're proud of how well it works for 14 hours though :)</p>
+        <p><a class="btn btn-default" href="https://github.com/Sebastian-Winemaker/Genesys-Hackathon-2014" role="button" target="_blank">Check out the code &raquo;</a></p>
+      </div>
+
+      <div class="col-md-6">
+        <h2>Enigma 1</h2>
+        <p>Enigma is a top-down zombie survival game, complete with waves of zombies chasing you down, different guns and exciting gameplay. This is the first major project I've ever worked on, with my partner Sina Ghaffari. We developed this game with very little prior knowledge of Java or even much programming in general. However, bit by bit, we figured out better and better ways to do things and ultimately ended up with this amazing (albeit a bit inefficient) game. </p>
+      <p><a class="btn btn-default" href="http://sourceforge.net/projects/enigma-original/files/latest/download?source=navbar" role="button">Play the game &raquo;</a> &nbsp;         
+        <a class="btn btn-default" href="https://github.com/sinaghaffari/Enigma" role="button" target="_blank">Check out the code &raquo;</a></p>
        </div>
 	   
-	   <div class="col-md-6">
-          <h2>Enigma 2</h2>
-          <p>An unfinished remake of the game Enigma, created with Sina Ghaffari. Although the game is not complete and has no real challeges for the user, we managed to have a lot of fun making this in 12th grade. We focused much more on gameplay mechanics and efficiency, with things such as advanced collisions, raycasting, better pathfinding for enemies and turrets. </p>
-          <p><a class="btn btn-default" href="http://sourceforge.net/projects/enigma2/files/latest/download" role="button">Play the game &raquo;</a>&nbsp;
-		  <a class="btn btn-default" href="https://github.com/sinaghaffari/Enigma-2.0" role="button">Check out the code &raquo;</a></p>
-       </div>
-
 	</div>
 
 	<div class="row">
@@ -104,19 +109,18 @@
     <div class="col-md-6">
           <h2>TabQuick</h2>
           <p>A chrome extension which helps you save your current tabs effortlessly, whenever you want. I got sick of having 15 tabs open related to one subject and not being able to save them easily. With TabQuick, you just click the icon, and it puts every tab you have open into a bookmark folder, to be accessed later with no problem. Although it seems simple, all the nitpicky details of chrome extensions, as well as asynchronous programming made this a fun challenge to create.</p>
-          <p><a class="btn btn-default" href="https://chrome.google.com/webstore/detail/tabquick/dbkogajmfdphjbnnikgldigaddhdbjlb/details" role="button">Get the extension &raquo;</a> &nbsp; 
-      <a class="btn btn-default" href="https://github.com/TristanH/TabQuick" role="button">Check out the code &raquo;</a>
+          <p><a class="btn btn-default" href="https://chrome.google.com/webstore/detail/tabquick/dbkogajmfdphjbnnikgldigaddhdbjlb/details" role="button" target="_blank">Get the extension &raquo;</a> &nbsp; 
+      <a class="btn btn-default" href="https://github.com/TristanH/TabQuick" role="button" target="_blank">Check out the code &raquo;</a>
       </p>
       </div>
 
       <div class="col-md-6">
-          <h2>USACO C++ Solutions</h2>
-          <p>A compilation of my C++ solutions to the USACO training gate problems. Each of these individual C++ files contains a unique algorithm implementation to meet the needs of the problem. They are primarily up for reference of friends and others who are interested in hints or comparing answers to these very tough problems. </p>
-          <p>
-      <a class="btn btn-default" href="https://github.com/TristanH/usaco-solutions" role="button">Check out the code &raquo;</a>
-      </p>
+          <h2>Enigma 2</h2>
+          <p>An unfinished remake of the game Enigma, created with Sina Ghaffari. Although the game is not complete and has no real challeges for the user, we managed to have a lot of fun making this in 12th grade. We focused much more on gameplay mechanics and efficiency, with things such as advanced collisions, raycasting, better pathfinding for enemies and turrets. </p>
+          <p><a class="btn btn-default" href="http://sourceforge.net/projects/enigma2/files/latest/download" role="button" target="_blank">Play the game &raquo;</a>&nbsp;
+      <a class="btn btn-default" href="https://github.com/sinaghaffari/Enigma-2.0" role="button">Check out the code &raquo;</a></p>
+       </div>
 
-        </div>
 
       </div>
 
@@ -126,11 +130,16 @@
           <h2>Game of Life</h2>
           <p>A small project just for fun. Displays a grid of "cells" living together, reacting to the states of their neighbours. The concept behind cellular automation is pretty interesting and I might come back to this if I get interested in it again. </p>
           <p><a class="btn btn-default" href="https://github.com/TristanH/Game-of-Life/raw/master/GoL.jar" role="button">Try it &raquo;</a>&nbsp;
-      <a class="btn btn-default" href="https://github.com/TristanH/Game-of-Life" role="button">Check out the code &raquo;</a></p>
+      <a class="btn btn-default" href="https://github.com/TristanH/Game-of-Life" role="button" target="_blank">Check out the code &raquo;</a></p>
         </div>
      
       <div class="col-md-6">
-          <!-- Next project goes here -->
+          <h2>USACO C++ Solutions</h2>
+          <p>A compilation of my C++ solutions to the USACO training gate problems. Each of these individual C++ files contains a unique algorithm implementation to meet the needs of the problem. They are primarily up for reference of friends and others who are interested in hints or comparing answers to these very tough problems. </p>
+          <p>
+      <a class="btn btn-default" href="https://github.com/TristanH/usaco-solutions" role="button" target="_blank">Check out the code &raquo;</a>
+      </p>
+
         </div>
      
       </div>

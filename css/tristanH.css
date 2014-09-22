@@ -213,3 +213,8 @@ body {
   color: #C1BCFF;
   background-color: transparent;
 }
+
+i.fa.fa-github{
+  font-size: 18px;
+  vertical-align: bottom;
+}
